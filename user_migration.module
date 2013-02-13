@@ -1,0 +1,16 @@
+<?php
+
+// define the source database, files and vocab IDs
+//define("OUR_SOURCE_DATABASE", 'our_d6_database');
+
+/*
+ * You must implement hook_migrate_api(), setting the API level to 2, for
+ * your migration classes to be recognized by the Migrate module.
+ */
+function user_migration_migrate_api() {
+  $api = array(
+    'api' => 2,
+  );
+  return $api;
+}
+

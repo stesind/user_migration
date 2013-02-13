@@ -1,0 +1,14 @@
+name = "User migration"
+description = "The drupal 6 to 7 user migration."
+package = "Development"
+core = 7.x
+dependencies[] = taxonomy
+dependencies[] = image
+;dependencies[] = comment
+dependencies[] = migrate
+dependencies[] = list
+dependencies[] = number
+ 
+files[] = user_migration.module
+files[] = users.inc
+
